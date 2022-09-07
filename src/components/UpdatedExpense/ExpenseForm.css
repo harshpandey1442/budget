@@ -1,0 +1,37 @@
+@media (min-width: 375px) {
+.expense__controls {
+  display: block;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+
+}
+}
+
+.expense__control label {
+  /* font-weight: bold; */
+  margin-bottom: 0.2rem;
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.expense__control input {
+  
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  width: 10rem;
+  max-width: 100%;
+  /* background-color: lightblue; */
+}
+
+.expense__btn{
+  text-align:center;
+  margin: 20px;
+}
+ .txt{
+display: flex;
+justify-content: center;
+ }
