@@ -2,15 +2,24 @@
 .expenses {
   padding: 1rem;
   background-color: rgb(44, 44, 118);
-  box-shadow: 0 15px 30px 3px white;
-    margin: 2rem auto;
-  width: 50rem;
-  /* max-width: 95%; */
-  width: 55%;
+  /* box-shadow: 0 15px 30px 3px white; */
+  box-shadow: 0 15px 30px 3px rgb(244, 109, 109);
+  margin: 2rem auto;
+  
+  width: 70%;
 }
 button{
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
 }
+}
+@media (max-width: 630px) {
+  .expenses {
+    padding: 1rem;
+    background-color: rgb(44, 44, 118);
+    box-shadow: 0 15px 30px 3px white;
+    margin: 2rem auto;
+    width: auto;
+  }
 }

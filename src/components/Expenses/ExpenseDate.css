@@ -11,19 +11,22 @@
     align-items: center;
     justify-content: center;
   }
-  .expense-date__day {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
   
-  .expense-date__month {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
   
-  .expense-date__year {
-    font-size:  1.2rem;
-    font-weight: bold;
-  }
   
- 
+  @media (max-width: 820px) {
+    .expense-date__day {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    
+    .expense-date__month {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    
+    .expense-date__year {
+      font-size:  1rem;
+      font-weight: bold;
+    }
+  }

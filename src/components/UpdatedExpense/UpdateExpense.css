@@ -1,12 +1,12 @@
 @media (min-width: 375px) {
 .new-expense {
   background-color: rgb(44, 44, 118);
-  box-shadow: 0 15px 30px 3px white;
+  box-shadow: 0 15px 30px 3px rgb(244, 109, 109);
   padding: 1rem;
-  margin: 2rem auto;
+  margin: .5rem auto;
   width: 55%;
  
-  border-radius: 12px;
+  border-radius: 6px;
   text-align: center;
  
 }
@@ -15,12 +15,12 @@
 .new-expense button {
   font: inherit;
 
-  padding: 1rem 2rem;
+  padding: .5rem .1rem;
   border: 1px solid #40005d;
  
   color: black;
-  font-weight: bold;
-  /* border-radius: 12px; */
+  /* font-weight:; */
+  border-radius: 12px;
  
 }
 
